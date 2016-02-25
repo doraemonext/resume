@@ -1,5 +1,4 @@
 .DS_Store
-cv.log
-cv.out
-cv.aux
-texput.log
+*.log
+*.out
+*.aux
