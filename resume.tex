@@ -17,9 +17,9 @@
 \usepackage{xeCJK}
 \setsansfont{Myriad Pro}
 \setmonofont{Consolas}
-\setCJKmainfont{Heiti SC Light}
-\setCJKsansfont{Heiti SC Light}
-\setCJKmonofont{Heiti SC Light}
+\setCJKmainfont{STXihei}
+\setCJKsansfont{STXihei}
+\setCJKmonofont{STXihei}
 
 % Adjust margins to 12.5mm on all sides
 \addtolength{\oddsidemargin}{-12.5mm}
@@ -42,7 +42,7 @@
   \end{tabular*}\vspace{0pt}}
 %-----------------------------------------------------------
 
-\thispagestyle{fancy}
+\thispagestyle{empty}
 \lhead{}
 \chead{}
 \rhead{}
@@ -51,7 +51,7 @@
 \rfoot{\thepage}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\pagestyle{fancy}
+\pagestyle{empty}
 \rfoot{\thepage}
 
 
@@ -63,8 +63,7 @@
   \vspace{1.5mm}
   \textbf{\Large 郭耀星  Ace Kwok} & 155 2717 2722 (Tel) \\
   \vspace{0.25mm}
-  武汉大学国际软件学院 C3 楼 304 室 & \color{link}{doraemonext@gmail.com} \\
-  武汉市武昌区八一路299号 & \color{link}{http://www.doraemonext.com/} \\
+  \color{link}{http://www.doraemonext.com} & \color{link}{doraemonext@gmail.com} \\
 \end{tabular*}
 \\
 
@@ -83,7 +82,24 @@
 
 \begin{itemize}
 \item
-  \ressubheading{武汉极意网络科技有限公司}{2015.6 - 2015.9}
+  \ressubheading{北京小米科技有限责任公司}{2016.3 - 现在}
+
+  \begin{adjustwidth}{8mm}{8mm}
+
+    \textnormal{智能家庭\hspace{6mm}服务器组\hspace{6mm}后台开发实习生}
+
+    \hspace{8mm}\textnormal{基于 Go 的自动化测试系统（独立完成）}
+    
+    \hspace{8mm}\textnormal{将智能家庭的认证模块及部分接口从 PHP 迁移到 Go（和 Mentor 合作完成）}
+
+    \hspace{8mm}\textnormal{基于 Go 的日志监控组件，监控服务器产生的日志并根据规则上报及报警（独立完成）}
+
+    \hspace{8mm}\textnormal{基于 Java 的日志查询 API，对接 Hive 及 Elastic Search（独立完成）}
+
+  \end{adjustwidth}
+  
+\item
+  \ressubheading{武汉极意网络科技有限责任公司}{2015.6 - 2015.9}
 
   \begin{adjustwidth}{8mm}{8mm}
 
@@ -91,7 +107,7 @@
 
     \hspace{8mm}\textnormal{基于 Spark 的运维日志分析系统（独立完成）}
 
-    \hspace{8mm}\textnormal{基于 Storm 的分布式爬虫系统（负责整个爬虫系统的设计及开发，前端数据分析模块由他人完成）}
+    \hspace{8mm}\textnormal{基于 Storm 的分布式爬虫系统（负责爬虫系统的设计及开发，前端数据分析模块由他人完成）}
 
     \hspace{8mm}\textnormal{基于 Python 和 Tornado 的用户管理后台（负责部分 Model 的设计和 API 的开发）}
 
@@ -101,124 +117,83 @@
 \resheading{项目经历}
 
 \begin{itemize}
+  
 \item
-
-  \ressubheading{微信公众平台 Python 开发包}{2014.8 - 现在}
-
+  \ressubheading{微信公众平台 Python 开发包 (1106 Star / 429 Fork)}{\color{link}{https://github.com/doraemonext/wechat-python-sdk}}
   \begin{adjustwidth}{8mm}{8mm}
-
-  \textnormal{Github：\color{link}{https://github.com/wechat-python-sdk/} \color{black}{\textbf{(724 Star / 275 Fork)}}}
-
-  \textnormal{Documentation：\color{link}{http://wechat-python-sdk.com/}}
-
-  \textnormal{该项目使用 Python 编写，一个微信公众平台的 Python 开发包，自开发至今广受用户好评，每月 4000+ 次下载（通过 pypi.python.org 渠道统计）。2016 年 2 月将其由个人项目转为 Organization，希望借此吸引开源社区的力量，共同完善代码。}
-
+  \textnormal{使用 Python 编写，一个微信公众平台的 Python 开发包，广受开发者好评。独立完成。}
   \end{adjustwidth}
 
-\end{itemize}
-
-\begin{itemize}
 \item
-  \ressubheading{自强学堂网站 API 系统}{2015.3 - 2015.11}
-
+  \ressubheading{自强学堂网站 API 系统}{}
   \begin{adjustwidth}{8mm}{8mm}
-
-  \textnormal{该项目托管于网站内部 Private Repository 上，故无法提供项目地址。}
-
-  \textnormal{该项目使用 Python 及 Django 框架编写，统一了自强学堂网站所有产品（Android/iOS/微信公众平台/淘课啦）的数据存储与获取方式，具有灵活的模块开发机制、完善的用户认证及签名验证机制，支持异步消息队列。在该项目中我负责核心框架的编写和部分外围模块的开发。}
-
+  \textnormal{使用 Python 及 Django 框架编写，统一了社团所有产品的数据存储及获取方式，具有灵活的模块开发机制、完善的用户认证及签名验证机制，支持异步消息队列。负责核心框架编写和部分外围模块开发。}
   \end{adjustwidth}
-\end{itemize}
 
-\begin{itemize}
 \item
-  \ressubheading{花旗杯金融创新应用大赛——好味道众筹}{2014.7 - 2014.9}
-
+  \ressubheading{自强学堂网站 WeChat 管理系统}{}
   \begin{adjustwidth}{8mm}{8mm}
-
-  \textnormal{Github：\color{link}{https://github.com/doraemonext/citi/}}
-
-  \textnormal{Documentation：\color{link}{http://docs.citi.apiary.io/}}
-
-  \textnormal{该项目使用 Python 及 Django 框架编写，一个餐饮众筹网站，可浏览、发起、编辑众筹项目，支持评论，对失败项目的处理，成功项目的阶段任务分配与进行情况跟踪。在该项目中我负责后台与 API 的开发。}
-
+  \textnormal{使用 Python 及 Django 框架编写，是目前自强学堂网站正在使用的微信公众平台管理系统，有可扩展的插件框架，提供完善的接口，可自助启停，仿真微信官方后台的规则管理操作体验。独立完成。}
   \end{adjustwidth}
-\end{itemize}
 
-\begin{itemize}
 \item
-  \ressubheading{自强学堂网站 WeChat 管理系统}{2013.11 - 2014.3}
-
+  \ressubheading{DEOnlineJudge}{\color{link}{https://github.com/doraemonext/DEOnlineJudge/}}
   \begin{adjustwidth}{8mm}{8mm}
-
-  \textnormal{该项目托管于网站内部 Private Repository 上，故无法提供项目地址。}
-
-  \textnormal{该系统使用 Python 及 Django 框架编写，是目前自强学堂网站正在使用的微信公众平台管理系统，稳定为 30000+ 用户提供服务，有可扩展的插件框架，提供完善的接口，可自助启停，仿真微信官方后台的规则管理操作体验。独立完成该项目。}
-
+  \textnormal{使用 Python 及 Django 框架编写，一个 ACM 在线评测系统。独立完成。}
   \end{adjustwidth}
-\end{itemize}
 
-\begin{itemize}
 \item
-  \ressubheading{其他小型个人项目}{}
-
+  \ressubheading{武大校园信息抓取工具}{\color{link}{https://github.com/doraemonext/zq\_monitor/}}
   \begin{adjustwidth}{8mm}{8mm}
-
-    \textnormal{DEOnlineJudge \color{link}{https://github.com/doraemonext/DEOnlineJudge/}}
-
-    \hspace{8mm}\textnormal{使用 Python 及 Django 框架编写，是一个简单的 ACM 在线评测系统。}
-
-    \textnormal{武大校园信息抓取工具 \color{link}{https://github.com/doraemonext/zq\_monitor/}}
-
-    \hspace{8mm}\textnormal{使用 Python 及 Django 框架编写，是一个插件化的抓取平台，用于抓取全校各院的最新信息。}
-
-    \textnormal{金客网 \color{link}{https://github.com/doraemonext/vc/}}
-
-    \hspace{8mm}\textnormal{使用 PHP 及 Laravel 框架编写，是一个对 VC 机构及投资人的评分评论系统。}
-
-    \textnormal{武汉大学学生事务百科 \color{link}{https://github.com/doraemonext/yizhanshi\_baike/}}
-
-    \hspace{8mm}\textnormal{使用 PHP 及 CodeIgniter 框架编写，是武汉大学面向学生的日常事务问答平台。}
-
-    \textnormal{班级同学录 \color{link}{https://github.com/doraemonext/classmates/}}
-
-    \hspace{8mm}\textnormal{使用 PHP 编写，高三下学期完成，用于收集并展示班级上所有人的通讯信息。}
-
+  \textnormal{使用 Python 及 Django 框架编写，一个插件化的抓取平台，用于抓取全校各院的最新信息。独立完成。}
   \end{adjustwidth}
-\end{itemize}
 
-\newpage
+\item
+  \ressubheading{好味道众筹}{\color{link}{https://github.com/doraemonext/citi/}}
+  \begin{adjustwidth}{8mm}{8mm}
+  \textnormal{使用 Python 及 Django 框架编写，一个餐饮众筹网站，有完整的众筹流程。独立完成。}
+  \end{adjustwidth}
+
+%\item                           
+%  \ressubheading{金客网}{\color{link}{https://github.com/doraemonext/vc/}}
+%  \begin{adjustwidth}{8mm}{8mm}
+%  \textnormal{使用 PHP 及 Laravel 框架编写，一个对 VC 机构及投资人的评分评论系统。独立完成。}
+%  \end{adjustwidth}
+
+%% \item                        
+%%   \ressubheading{武汉大学学生事务百科}{\color{link}{https://github.com/doraemonext/yizhanshi\_baike/}}
+%%   \begin{adjustwidth}{8mm}{8mm}
+%%   \textnormal{使用 PHP 及 CodeIgniter 框架编写，武汉大学面向学生的日常事务问答平台。独立完成。}
+%%   \end{adjustwidth}    
+  
+\end{itemize}
 
 \resheading{专业技能}
 \begin{multicols}{2}
   \begin{itemize}
   \item
-    \textbf{程序设计语言}
+    \textbf{语言}
     \begin{itemize}
-    \item{熟悉 Python / C}
-    \item{较为熟悉 C++ / PHP / JavaScript}
-    \item{了解 Shell}
-    \end{itemize}
-  \item
-    \textbf{框架}
-    \begin{itemize}
-    \item{熟悉 Django}
-    \item{了解 Tornado}
+    \item{熟悉 Go / Python / C}
+    \item{较为熟悉 C++ / Java}
+    \item{了解 PHP / JavaScript}
     \end{itemize}
   \item
     \textbf{数据库}
     \begin{itemize}
-    \item{熟悉 MySQL / MongoDB / SQLite}
+    \item{熟悉 MySQL}
     \end{itemize}
   \item
-    \textbf{开发工具}
+    \textbf{框架及组件}
     \begin{itemize}
-    \item{熟悉 Emacs / PyCharm / CLion}
+    \item{熟悉 Django}
+    \item{较为熟悉 Redis / Memcached}
+    \item{了解 Spark / Storm / Hadoop}
     \end{itemize}
   \item
-    \textbf{系统平台}
+    \textbf{系统}
     \begin{itemize}
-    \item{熟悉 Linux / OS X}
+    \item{熟悉 OS X / Linux}
     \end{itemize}
   \end{itemize}
 \end{multicols}
@@ -227,26 +202,8 @@
 
 \begin{itemize}
 \item \ressubnormal{2014.9 - 2015.6 自强学堂网站 Web 组后台负责人}{}
-\item \ressubnormal{2013.9 - 2014.9 自强学堂网站 Web 组后台成员}{}
-\item \ressubnormal{2013.9 - 2014.1 百度俱乐部技术部成员}{}
 \item \ressubnormal{2015.6 参与联创团队 HackDay，合作开发作品『AirCraft』 \color{link}{https://github.com/doraemonext/aircraft-server/}}{}
 \item \ressubnormal{2014.5 参与联创团队 HackDay，合作开发作品『私密日志』 \color{link}{https://github.com/doraemonext/hackday/}}{}
-\end{itemize}
-
-\resheading{获奖记录}
-
-\begin{itemize}
-\item{2014年“花旗杯”金融创新应用大赛最佳创意奖}
-\item{2012年全国青少年信息学奥林匹克竞赛省一等奖}
-\end{itemize}
-
-\resheading{个人评价}
-
-\begin{itemize}
-\item{对软件开发有极大的热情，能够通过各种方法解决自己遇到的问题。}
-\item{对未知事物有着快速学习的能力，能够较快掌握所需要的知识与技能。}
-\item{具有较为丰富的实践经验。}
-\item{工作认真负责。}
 \end{itemize}
 
 \end{document}
